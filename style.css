@@ -1,0 +1,90 @@
+body {
+    background: #f5f6fa;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #273c75;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+
+h3 {
+    color: #353b48;
+    margin-left: 20px;
+}
+
+.cesaruwuinsanowaza {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.cesaruwuinsanowaza div {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+    padding: 16px;
+    text-align: center;
+    width: 260px;
+    transition: box-shadow 0.2s;
+}
+
+.cesaruwuinsanowaza div:hover {
+    box-shadow: 0 4px 16px rgba(44, 62, 80, 0.18);
+}
+
+.cesaruwuinsanowaza img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.cesaruwuinsanowaza p {
+    color: #636e72;
+    font-size: 1rem;
+    margin: 0;
+}
+
+input[type="text"] {
+    display: block;
+    width: 90%;
+    max-width: 400px;
+    margin: 10px auto 20px auto;
+    padding: 10px;
+    border: 1px solid #dcdde1;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #f1f2f6;
+    transition: border 0.2s;
+}
+
+input[type="text"]:focus {
+    border: 1.5px solid #4078c0;
+    outline: none;
+}
+
+button.btminsanowaza {
+    display: block;
+    margin: 0 auto 30px auto;
+    padding: 12px 32px;
+    background: linear-gradient(90deg, #4078c0 0%, #273c75 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+    transition: background 0.2s, transform 0.2s;
+}
+
+button.btminsanowaza:hover {
+    background: linear-gradient(90deg, #273c75 0%, #4078c0 100%);
+    transform: translateY(-2px) scale(1.03);
+}
